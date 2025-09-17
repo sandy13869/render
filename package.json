@@ -1,0 +1,23 @@
+{
+  "name": "public-images-render",
+  "version": "1.0.0",
+  "description": "A simple web application for managing and displaying public images",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "images",
+    "gallery",
+    "public",
+    "render",
+    "web"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandy13869/render.git"
+  }
+}

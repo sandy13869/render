@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Images Render</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Public Images Gallery</h1>
+        <p>A simple gallery for rendering public images</p>
+    </header>
+    
+    <main>
+        <div class="upload-section">
+            <h2>Add Public Image</h2>
+            <input type="file" id="imageInput" accept="image/*" multiple>
+            <button onclick="addImages()">Add Images</button>
+        </div>
+        
+        <div class="gallery" id="gallery">
+            <h2>Public Images</h2>
+            <div class="image-grid" id="imageGrid">
+                <!-- Images will be dynamically added here -->
+            </div>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
