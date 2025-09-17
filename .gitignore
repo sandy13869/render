@@ -1,0 +1,26 @@
+# Ignore temporary files
+/tmp/
+*.tmp
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore node modules if any
+node_modules/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
